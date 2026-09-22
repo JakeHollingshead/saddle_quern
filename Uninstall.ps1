@@ -22,7 +22,7 @@ foreach ($n in $names) {
         continue
     }
     $body = [IO.File]::ReadAllText($skill)
-    if ($body -notmatch "(?m)^name: $([regex]::Escape($n))\$") {
+    if ($body -notmatch "(?m)^name: $([regex]::Escape($n))`$") {
         $skipped += "$n (does not look like a saddle_quern skill; left in place)"
         continue
     }

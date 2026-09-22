@@ -27,7 +27,7 @@ try {
             continue
         }
         $existing = [IO.File]::ReadAllText($skill)
-        if ($existing -notmatch "(?m)^name: $([regex]::Escape($name))\$") {
+        if ($existing -notmatch "(?m)^name: $([regex]::Escape($name))`$") {
             $skipped += "$name (SKILL.md present but does not identify itself as $name; left untouched)"
             continue
         }
