@@ -1,6 +1,8 @@
 # saddle_quern
 
-A Markdown-based code review agent. It grinds a codebase into classes, functions, calls, state changes, and failure paths. It produces evidence and a quality assessment. It is not a standalone application or model service.
+<img src="sadie-saddle-quern.png" alt="Sadie, the saddle_quern mascot, grinding a codebase into data" width="220" align="right">
+
+A Markdown-based code review agent. It grinds a codebase into classes, functions, calls, state changes, and failure paths. It produces evidence and a quality assessment. It is not a standalone application or model service. Sadie, pictured, is the mascot.
 
 [MIT licensed](LICENSE). See [CONTRIBUTING.md](CONTRIBUTING.md) to add a review mode. See [examples/](examples/) for a worked sample review.
 
@@ -47,6 +49,7 @@ The seven code baselines and the full process live in AGENTS.md. Review modes ch
 - examples/: a worked sample review against a small fixture repo.
 - CONTRIBUTING.md: how to add a review mode.
 - LICENSE: MIT license.
+- sadie-saddle-quern.png: the mascot, referenced in this README.
 - scripts/ and .github/: repository self-checks (link and installer-name consistency). Not part of a code review run and not installed by the scripts below.
 
 Keep product-specific reports, private source, credentials, and customer data outside this instruction repository.
